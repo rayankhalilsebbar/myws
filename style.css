@@ -1,0 +1,24 @@
+
+.sidebar {
+    min-height: 100vh;
+}
+
+.mainpage {
+
+}
+
+.profile-picture {
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.location-logo{
+    margin-top: 3px;
+    margin-right: 6px;
+}
