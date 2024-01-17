@@ -1,24 +1,111 @@
 
-.sidebar {
-    min-height: 100vh;
+
+.nav-icons {
+    padding-bottom: 3px;
 }
 
-.mainpage {
+.sidebar {
+    overflow-y: auto;
+    height: 100vh;
+    position: fixed;
+    background-color: #F3F4F4;
+}
 
+p.lead {
+    font-size: 18px;
+    color: #666666;
+    font-family: 'Inter', 'Inter Placeholder', sans-serif;
 }
 
 .profile-picture {
     border-radius: 8px;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
-.name{
-    font-weight: bold;
+p.job {
+    margin-bottom: 30px;
+    color: #666666;
+}
+
+.name {
+    font-size: 16px;
     margin-bottom: 0px;
+    font-family: 'Inter', 'Inter Placeholder', sans-serif;
+    font-weight: 550;
 }
 
-.location-logo{
+.location-logo {
     margin-top: 3px;
     margin-right: 6px;
 }
+
+.hrfooter {
+    margin: 0px;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+section {
+    overflow-y: auto;
+    height: 100vh;
+    margin-left: 300px; /* Ajustez la marge gauche pour laisser de la place à la sidebar */
+}
+
+
+/* Media query pour rendre la sidebar collapsed en dessous de 1300px */
+@media (min-width: 992px) {
+    section {
+        margin-left: 300px;
+    }
+}
+
+/* Pour les écrans de taille moyenne et plus petits */
+@media (max-width: 991px) {
+    section {
+        margin-left: 90px;
+    }
+}
+
+
+
+.gradient-background {
+	background: linear-gradient(-45deg, #26053c, #c41725, #fd6430, #fcb045);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+  }
+
+  .gradient-background2 {
+	background: linear-gradient(-45deg, #020024, #090979, #23a6d5, #00d4ff);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+  }
+
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+/* Utilisez une classe pour augmenter la spécificité */
+.no-decoration {
+    text-decoration: none;
+    color: inherit;
+}
+
