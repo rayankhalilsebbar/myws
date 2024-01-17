@@ -280,16 +280,19 @@
     </div>
 
     <script>
-      document.getElementById('darkModeIcon').addEventListener('click', function () {
+    document.getElementById('darkModeIcon').addEventListener('click', toggleDarkMode);
+    document.getElementById('darkModeIcon').addEventListener('touchstart', toggleDarkMode);
+
+    function toggleDarkMode() {
         this.classList.toggle('bi-moon');
         this.classList.toggle('bi-sun');
         let theme = document.documentElement.getAttribute('data-bs-theme');
         if (theme === 'dark') {
-          document.documentElement.removeAttribute('data-bs-theme');
+            document.documentElement.removeAttribute('data-bs-theme');
         } else {
-          document.documentElement.setAttribute('data-bs-theme', 'dark');
+            document.documentElement.setAttribute('data-bs-theme', 'dark');
         }
-      });
+    }
     </script>
     
     <script src="./index.js"></script>
