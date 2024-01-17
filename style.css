@@ -1,12 +1,10 @@
-
-
 .nav-icons {
     padding-bottom: 3px;
 }
 
 .sidebar {
     overflow-y: auto;
-    height: 100vh;
+    height: 100dvh;
     position: fixed;
     background-color: #F3F4F4;
 }
@@ -50,13 +48,13 @@ html, body {
 
 body {
     overflow: hidden;
-    min-height: 100vh;
+    min-height: 100dvh;
     padding: 0;
 }
 
 section {
     overflow-y: auto;
-    height: 100vh;
+    height: 100dvh;
     margin-left: 300px; /* Ajustez la marge gauche pour laisser de la place à la sidebar */
 }
 
@@ -108,8 +106,4 @@ section {
     text-decoration: none;
     color: inherit;
 }
-
-html {
-    height: -webkit-fill-available;
-  }
 
