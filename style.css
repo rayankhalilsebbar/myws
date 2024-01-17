@@ -44,10 +44,14 @@ p.job {
     margin: 0px;
 }
 
-
+html, body {
+    margin: 0;
+}
 
 body {
     overflow: hidden;
+    min-height: 100vh;
+    padding: 0;
 }
 
 section {
@@ -105,13 +109,7 @@ section {
     color: inherit;
 }
 
-:root {
-    --doc-height: 100%;
-   }
+html {
+    height: -webkit-fill-available;
+  }
 
-html, body {
-    padding: 0;
-    margin: 0;
-    height: 100vh; /* fallback for Js load */
-    height: var(--doc-height);
-}
