@@ -11,6 +11,8 @@
     background-color: #F3F4F4;
     top: 0;
     left: 0;
+    min-height: 100vh;
+    max-height: 100vh;
 }
 
 p.lead {
@@ -48,7 +50,9 @@ p.job {
 
 html, body {
     margin: 0;
+    padding: 0;
     height: 100%;
+    max-height: 100vh;
 }
 
 body {
