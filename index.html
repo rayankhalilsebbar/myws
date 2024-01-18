@@ -157,7 +157,7 @@
         
             <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
               <div class="col">
-                <div class="border-0 card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: var(--bs-gradient);;">
+                <div class="border-0 card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                   <a class="no-decoration" href="https://github.com/rayankhalilsebbar/Web-basedRacerGame/tree/master">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 gradient-background">
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Social Media MERN App</h3>
@@ -174,7 +174,7 @@
               </div>
         
               <div class="col">
-                <div class="border-0 card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                <div class="border-0 card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
                   <a class="no-decoration" href="https://github.com/rayankhalilsebbar/Web-basedRacerGame">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 gradient-background2">
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Web-based JS Racer Game</h3>
@@ -282,10 +282,11 @@
     <script>
     document.getElementById('darkModeIcon').addEventListener('click', toggleDarkMode);
     document.getElementById('darkModeIcon').addEventListener('touchstart', toggleDarkMode);
+    
 
     function toggleDarkMode() {
-        this.classList.toggle('bi-moon');
-        this.classList.toggle('bi-sun');
+        document.getElementById('darkModeIcon').classList.toggle('bi-moon');
+        document.getElementById('darkModeIcon').classList.toggle('bi-sun');
         let theme = document.documentElement.getAttribute('data-bs-theme');
         if (theme === 'dark') {
             document.documentElement.removeAttribute('data-bs-theme');
