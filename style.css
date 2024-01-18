@@ -1,3 +1,5 @@
+
+
 .nav-icons {
     padding-bottom: 3px;
 }
@@ -105,5 +107,9 @@ section {
 .no-decoration {
     text-decoration: none;
     color: inherit;
+}
+
+#darkModeIcon {
+    cursor: pointer;
 }
 
