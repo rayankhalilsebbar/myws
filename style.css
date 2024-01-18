@@ -1,7 +1,18 @@
+#about-title{
+    color: #666666;
+}
 
+.about-sub{
+    color: #666666;
+}
+
+.text-collapse{
+    font-size: 14px;
+}
 
 .nav-icons {
     padding-bottom: 3px;
+    
 }
 
 .sidebar {
@@ -11,8 +22,12 @@
     background-color: #F3F4F4;
 }
 
+.accordion-body .cert {
+    color: #666666;
+}
+
 p.lead {
-    font-size: 18px;
+    font-size: 22px;
     color: #666666;
     font-family: 'Inter', 'Inter Placeholder', sans-serif;
 }
@@ -31,12 +46,11 @@ p.job {
 .name {
     font-size: 16px;
     margin-bottom: 0px;
-    font-family: 'Inter', 'Inter Placeholder', sans-serif;
     font-weight: 550;
 }
 
 .location-logo {
-    margin-top: 3px;
+    margin-top: 6px;
     margin-right: 6px;
 }
 
