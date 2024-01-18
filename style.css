@@ -109,7 +109,10 @@ section {
     color: inherit;
 }
 
-#darkModeIcon {
+#darkModeIcon1 {
     cursor: pointer;
 }
 
+#darkModeIcon2 {
+    cursor: pointer;
+}
