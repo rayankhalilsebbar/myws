@@ -1,3 +1,11 @@
+h2.subtitle {
+    color: #666666;
+}
+
+.grid-item {
+    font-size: 14px;
+}
+
 /* Style pour l'effet de fondu à l'apparition */
 .fade-in {
     opacity: 0;
