@@ -1,3 +1,29 @@
+/* Style pour l'effet de fondu à l'apparition */
+.fade-in {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out, visibility 1s ease-in-out; /* Ajoute une transition de 1 seconde avec un effet ease-in-out */
+}
+
+/* Ajoutez cette règle pour appliquer l'opacité et la visibilité seulement lorsque la classe visible est présente */
+.visible.fade-in {
+    opacity: 1;
+    visibility: visible;
+}
+
+.visible.fade-in:hover {
+    opacity: 1;
+}
+
+
+
+
+/* Style pour ajouter l'opacité au survol */
+.svg-hover-opacity:hover {
+    opacity: 0.8; /* Vous pouvez ajuster la valeur selon vos préférences */
+    transition: opacity 0.3s ease; /* Ajoute une transition pour une animation fluide */
+}
+
 .nav-pills .nav-link.active {
     background-color: #666666;
 }
