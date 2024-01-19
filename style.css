@@ -23,9 +23,6 @@ h2.subtitle {
     opacity: 1;
 }
 
-
-
-
 /* Style pour ajouter l'opacité au survol */
 .svg-hover-opacity:hover {
     opacity: 0.8; /* Vous pouvez ajuster la valeur selon vos préférences */
